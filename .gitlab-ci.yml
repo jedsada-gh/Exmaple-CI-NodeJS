@@ -11,22 +11,29 @@ cache:
   paths:
     - node_modules/
 
-build:build:
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
   script:
     - npm build
 
-test:lin_test:
+lin_test:
+  stage: test
   script:
     - npm lin
 
-test:unit_test:
+unit_test:
+  stage: test
   script:
     - npm test
 
-publish:
+deploy_code:
   stage: deploy
   only:
     - master
-    - triggers
   script:
-    - echo 'deploy'
+    - echo 'command deploy here.'
