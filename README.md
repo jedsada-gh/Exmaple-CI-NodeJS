@@ -1,1 +1,1 @@
-# Exmaple-CI-NodeJS [![coverage report](https://gitlab.com/J.Tiwongvorakul/Exmaple-CI-NodeJS/badges/master/coverage.svg)](https://gitlab.com/J.Tiwongvorakul/Exmaple-CI-NodeJS/commits/master)
+# Exmaple-CI-NodeJS [![build status](https://gitlab.com/J.Tiwongvorakul/Exmaple-CI-NodeJS/badges/master/build.svg)](https://gitlab.com/J.Tiwongvorakul/Exmaple-CI-NodeJS/commits/master)
