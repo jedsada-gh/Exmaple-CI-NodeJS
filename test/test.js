@@ -11,7 +11,7 @@ describe('Test Calculator', function () {
 
     describe('functions minus', function () {
         it('1 - 1 should be 0', function () {
-            assert.equal(0, calculate.plus(0, 0))
+            assert.equal(0, calculate.minus(1, 1))
         });
     });
 
