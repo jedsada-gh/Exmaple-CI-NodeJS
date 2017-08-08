@@ -5,6 +5,9 @@ image: node:7
 before_script:
   - npm install
 
+only:
+  - master
+
 # This folder is cached between builds
 # http://docs.gitlab.com/ce/ci/yaml/README.html#cache
 cache:
