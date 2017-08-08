@@ -4,10 +4,7 @@ image: node:7
 
 before_script:
   - npm install
-
-only:
-  - master
-
+  
 # This folder is cached between builds
 # http://docs.gitlab.com/ce/ci/yaml/README.html#cache
 cache:
@@ -25,3 +22,11 @@ test:lin_test:
 test:unit_test:
   script:
     - npm test
+
+publish:
+  stage: deploy
+  only:
+    - master
+    - triggers
+  script:
+    - echo 'deploy'
