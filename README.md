@@ -1,1 +1,1 @@
-# Exmaple-CI-NodeJS [![build status](https://gitlab.com/J.Tiwongvorakul/Exmaple-CI-NodeJS/badges/master/build.svg)](https://gitlab.com/J.Tiwongvorakul/Exmaple-CI-NodeJS/commits/master)
+# Exmaple-CI-NodeJS [![Build Status](https://travis-ci.org/T-Jedsada/Exmaple-CI-NodeJS.svg?branch=master)](https://travis-ci.org/T-Jedsada/Exmaple-CI-NodeJS)
