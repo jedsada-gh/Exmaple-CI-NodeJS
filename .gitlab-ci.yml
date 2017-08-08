@@ -30,7 +30,6 @@ unit_test:
   stage: test
   script:
     - npm test
-    - npm run test-with-coverage
   artifacts:
     paths:
     - mochawesome-report
