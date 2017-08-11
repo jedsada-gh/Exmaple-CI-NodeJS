@@ -17,7 +17,7 @@ describe('Test Calculator', function () {
 
     describe('functions multiply', function () {
         it('1 * 1 should be 1', function () {
-            assert.equal(1, calculate.multiply(1, 1))
+            assert.equal(1, calculate.multiply(1, 2))
         });
     });
 
